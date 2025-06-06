@@ -1,0 +1,19 @@
+name: cadastro_filmes
+description: App de cadastro de filmes com Flutter + SQLite
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.8+4
+  path: ^1.8.4
+  flutter_rating_bar: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
